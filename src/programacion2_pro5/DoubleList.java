@@ -373,6 +373,20 @@ public class DoubleList {
         }
     }
     
+    public void Neder(Child E, int Res){
+        JOptionPane.showMessageDialog(null,
+                            "La Informacion Del Acudiente Con El Codigo: " + Res + " Es "
+                            +"\nMunicipio: " + E.Municipality
+                            +"\nInformacion Del Acudiente:"
+                            +"\nIdentificacion: " + E.Id
+                            +"\nNombre: " + E.Name
+                            +"\nInformacion Del Niño: "
+                            +"\nEdad: " + E.Age
+                            +"\nRegistro: " + E.Record
+                            +"\nNombre: " + E.name
+                            +"\nTalla: " + E.Size
+                            +"\nPeso: " + E.Weight);
+    }
     public void SearchC(int Res){
         Child E = Cab;
         if (E == null) JOptionPane.showMessageDialog(null,
@@ -393,41 +407,18 @@ public class DoubleList {
                             +"\nTalla: " + E.Size
                             +"\nPeso: " + E.Weight);
                     break;
-                }
-                else if( Res == E.Id ){
-                    JOptionPane.showMessageDialog(null,
-                            "La Informacion Del Acudiente Con El Codigo: " + Res + " Es "
-                            +"\nMunicipio: " + E.Municipality
-                            +"\nInformacion Del Acudiente:"
-                            +"\nIdentificacion: " + E.Id
-                            +"\nNombre: " + E.Name
-                            +"\nInformacion Del Niño: "
-                            +"\nEdad: " + E.Age
-                            +"\nRegistro: " + E.Record
-                            +"\nNombre: " + E.name
-                            +"\nTalla: " + E.Size
-                            +"\nPeso: " + E.Weight);
+                } else if( Res == E.Id ){
+                    Neder(E, Res);
                     Child U = Lasted();
                     while( U != Cab){
                         if( Res == E.Id ){
-                            JOptionPane.showMessageDialog(null,
-                                    "La Informacion Del Acudiente Con El Codigo: " + Res + " Es "
-                                    +"\nMunicipio: " + U.Municipality
-                                    +"\nInformacion Del Acudiente:"
-                                    +"\nIdentificacion: " + U.Id
-                                    +"\nNombre: " + U.Name
-                                    +"\nInformacion Del Niño: "
-                                    +"\nEdad: " + U.Age
-                                    +"\nRegistro: " + U.Record
-                                    +"\nNombre: " + U.name
-                                    +"\nTalla: " + U.Size
-                                    +"\nPeso: " + U.Weight);
+                            Neder(U, Res);
                             break;
                         }
                         U = U.Ant;
                     }
                     break;
-                }else{
+                } else{
                     JOptionPane.showMessageDialog(null,
                             "No Se Encontró Un Codigo Que Coincida Con El Buscado");
                 }
