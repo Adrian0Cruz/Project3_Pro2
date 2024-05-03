@@ -14,9 +14,9 @@ public class DoubleList {
 
     public DoubleList() { Cab = null; }
 
-    public boolean Empty() { return Cab == null; }
+    private boolean Empty() { return Cab == null; }
 
-    public int GetLength() {
+    private int GetLength() {
         if ( Empty() )  return 0; 
         else {
             Child A = Cab;
@@ -29,7 +29,7 @@ public class DoubleList {
         }
     }
 
-    public Child ChildCod(int cod) {
+    private Child ChildCod(int cod) {
         if ( Empty() )  return null; 
         else {
             Child p = Cab;
@@ -41,7 +41,7 @@ public class DoubleList {
         }
     }
 
-    public boolean Create( JComboBox Municipality, JTextField Id, JTextField Name,
+    private boolean Create( JComboBox Municipality, JTextField Id, JTextField Name,
             JLabel Age, JTextField Record, JTextField name, JTextField Size,
             JTextField Weight ) {
         Child b = null;
@@ -97,7 +97,7 @@ public class DoubleList {
         }
     }
 
-    public Child Lasted() {
+    private Child Lasted() {
         if ( Empty()) return null;
         else {
             Child p = Cab;
@@ -169,7 +169,7 @@ public class DoubleList {
         }
     }
 
-    public void setRegistrarFilaJTable( DefaultTableModel miModelo, int pFila,
+    private void setRegistrarFilaJTable( DefaultTableModel miModelo, int pFila,
             Child p ) {
         miModelo.setValueAt(p.Municipality, pFila, 0);
         miModelo.setValueAt(p.Id, pFila, 1);
@@ -373,7 +373,7 @@ public class DoubleList {
         }
     }
     
-    public void Neder(Child E, int Res){
+    private void Neder(Child E, int Res){
         JOptionPane.showMessageDialog(null,
                             "La Informacion Del Acudiente Con El Codigo: " + Res + " Es "
                             +"\nMunicipio: " + E.Municipality
@@ -409,9 +409,12 @@ public class DoubleList {
                     break;
                 } else if( Res == E.Id ){
                     Neder(E, Res);
+                    int S = E.Record;
                     Child U = Lasted();
                     while( U != Cab){
-                        if( Res == E.Id ){
+                        if( U.Record == S )
+                            break;
+                        if( Res == U.Id ){
                             Neder(U, Res);
                             break;
                         }

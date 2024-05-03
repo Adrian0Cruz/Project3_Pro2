@@ -565,7 +565,7 @@
 											"top": 371,
 											"width": 771.33251953125,
 											"height": 13,
-											"text": "+boolean Empty()",
+											"text": "-boolean Empty()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -582,7 +582,7 @@
 											"top": 386,
 											"width": 771.33251953125,
 											"height": 13,
-											"text": "+int GetLength()",
+											"text": "-int GetLength()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -599,7 +599,7 @@
 											"top": 401,
 											"width": 771.33251953125,
 											"height": 13,
-											"text": "+Child ChildCod(int)",
+											"text": "-Child ChildCod(int)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -616,7 +616,7 @@
 											"top": 416,
 											"width": 771.33251953125,
 											"height": 13,
-											"text": "+boolean Create(JComboBox, JTextField, JTextField, JLabel, JTextField, JTextField, JTextField, JTextField )",
+											"text": "-boolean Create(JComboBox, JTextField, JTextField, JLabel, JTextField, JTextField, JTextField, JTextField )",
 											"horizontalAlignment": 0
 										},
 										{
@@ -650,7 +650,7 @@
 											"top": 446,
 											"width": 771.33251953125,
 											"height": 13,
-											"text": "+Child Lasted()",
+											"text": "-Child Lasted()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -701,7 +701,7 @@
 											"top": 491,
 											"width": 771.33251953125,
 											"height": 13,
-											"text": "+void setRegistrarFilaJTable(DefaultTableModel, int, Child)",
+											"text": "-void setRegistrarFilaJTable(DefaultTableModel, int, Child)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -842,6 +842,23 @@
 										},
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAGPO/IlWwK7kz4=",
+											"_parent": {
+												"$ref": "AAAAAAGPIR+YwZS1UUY="
+											},
+											"model": {
+												"$ref": "AAAAAAGPO/IlOAK4Gvg="
+											},
+											"font": "Arial;13;0",
+											"left": 37,
+											"top": 626,
+											"width": 771.33251953125,
+											"height": 13,
+											"text": "-void Neder(Child, int)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAGPISoTbZXSwLk=",
 											"_parent": {
 												"$ref": "AAAAAAGPIR+YwZS1UUY="
@@ -851,7 +868,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 37,
-											"top": 626,
+											"top": 641,
 											"width": 771.33251953125,
 											"height": 13,
 											"text": "+SearchC(int)",
@@ -862,7 +879,7 @@
 									"left": 32,
 									"top": 351,
 									"width": 781.33251953125,
-									"height": 293
+									"height": 308
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -902,7 +919,7 @@
 							"left": 32,
 							"top": 288,
 							"width": 780.33251953125,
-							"height": 356,
+							"height": 371,
 							"nameCompartment": {
 								"$ref": "AAAAAAGPIR+YwZSvjwI="
 							},
@@ -1599,7 +1616,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 959,
-									"top": 558,
+									"top": 561,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1620,7 +1637,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 957,
-									"top": 573,
+									"top": 576,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1641,7 +1658,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 964,
-									"top": 529,
+									"top": 532,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1661,8 +1678,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1082,
-									"top": 578,
+									"left": 1083,
+									"top": 580,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1683,7 +1700,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1078,
-									"top": 591,
+									"top": 592,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1704,7 +1721,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1091,
-									"top": 552,
+									"top": 553,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -1725,7 +1742,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 836,
-									"top": 539,
+									"top": 543,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -1745,7 +1762,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 836,
-									"top": 553,
+									"top": 557,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -1765,7 +1782,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 836,
-									"top": 512,
+									"top": 515,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -1814,7 +1831,7 @@
 								"$ref": "AAAAAAGPISuo1JdndLk="
 							},
 							"lineStyle": 1,
-							"points": "1111:574;813:527",
+							"points": "1111:575;813:531",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGPISwpzJiNO04="
@@ -15955,7 +15972,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPIR+YwJSsy14="
 							},
-							"name": "boolean Empty"
+							"name": "boolean Empty",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -15963,7 +15981,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPIR+YwJSsy14="
 							},
-							"name": "int GetLength"
+							"name": "int GetLength",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -15972,6 +15991,7 @@
 								"$ref": "AAAAAAGPIR+YwJSsy14="
 							},
 							"name": "Child ChildCod",
+							"visibility": "private",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -15991,6 +16011,7 @@
 								"$ref": "AAAAAAGPIR+YwJSsy14="
 							},
 							"name": "boolean Create",
+							"visibility": "private",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -16154,7 +16175,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGPIR+YwJSsy14="
 							},
-							"name": "Child Lasted"
+							"name": "Child Lasted",
+							"visibility": "private"
 						},
 						{
 							"_type": "UMLOperation",
@@ -16327,6 +16349,7 @@
 								"$ref": "AAAAAAGPIR+YwJSsy14="
 							},
 							"name": "void setRegistrarFilaJTable",
+							"visibility": "private",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -16524,6 +16547,35 @@
 								"$ref": "AAAAAAGPIR+YwJSsy14="
 							},
 							"name": "void Txt"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGPO/IlOAK4Gvg=",
+							"_parent": {
+								"$ref": "AAAAAAGPIR+YwJSsy14="
+							},
+							"name": "void Neder",
+							"visibility": "private",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGPO/JSTQgz8yI=",
+									"_parent": {
+										"$ref": "AAAAAAGPO/IlOAK4Gvg="
+									},
+									"name": "Child",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGPO/JSTQg06ws=",
+									"_parent": {
+										"$ref": "AAAAAAGPO/IlOAK4Gvg="
+									},
+									"name": "int",
+									"type": ""
+								}
+							]
 						},
 						{
 							"_type": "UMLOperation",
