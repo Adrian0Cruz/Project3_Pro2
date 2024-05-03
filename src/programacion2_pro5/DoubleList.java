@@ -182,7 +182,12 @@ public class DoubleList {
     public void LLenarTabla(JTable tab ) {
         int posFilaT = 0; //Este índice recorre los elementos de la fila Tabla
         Child p = Cab;  //Este nodo me mueve posición x posición en la lista
-        DefaultTableModel miModelo = new DefaultTableModel();
+        DefaultTableModel miModelo = new DefaultTableModel(){
+            @Override
+            public boolean isCellEditable(int row, int column) {
+                return false;
+            }
+        };
 
         miModelo.addColumn("Municipio");
         miModelo.addColumn("Identificacion");
@@ -315,7 +320,12 @@ public class DoubleList {
     public void Poto( String Municipality, JTable Tab ){
         int posFilaT = 0;
         Child p = Cab;
-        DefaultTableModel miModelo = new DefaultTableModel();
+        DefaultTableModel miModelo = new DefaultTableModel(){
+            @Override
+            public boolean isCellEditable(int row, int column) {
+                return false;
+            }
+        };
         int Cout = 0;
         miModelo.addColumn("Municipio");
         miModelo.addColumn("Identificacion");
