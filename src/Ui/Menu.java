@@ -326,7 +326,6 @@ public class Menu extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         add(V);
         T2.tweenSize(new Vector2(160, 75), 0.2, Tweenable.Style.OutSine, true);
-        //aT2.tweenSizeAndLocation(new Vector2(429-80,16), new Vector2(160, 75), 0.2, Tweenable.Style.OutSine, true);
         T.tweenSize(new Vector2(128, 64), 0.2, Tweenable.Style.OutSine, true);
         A.setVisible(false);
         jPanel2.setVisible(false);

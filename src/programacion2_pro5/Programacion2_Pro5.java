@@ -5,7 +5,7 @@ import Ui.Menu;
 import java.awt.geom.RoundRectangle2D;
 public class Programacion2_Pro5 {
     public static void main(String[] args) {
-        //System.out.println("hola mundo");
+        System.out.println("hola mundo");
         Menu Vie = new Menu();        
         Vie.setSize(700, 600);
         Vie.setShape(new RoundRectangle2D.Double(0, 0, 700, 600, 40, 40));

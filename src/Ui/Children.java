@@ -7,6 +7,7 @@ public class Children extends javax.swing.JPanel {
     View view;
     public Children() {
         initComponents();
+        get2.grabFocus();
     }
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -399,7 +400,7 @@ public class Children extends javax.swing.JPanel {
     public javax.swing.JButton EllaEraElPuntoYComaDeMiVida;
     private javax.swing.JTextField get;
     private javax.swing.JTextField get1;
-    private javax.swing.JTextField get2;
+    public javax.swing.JTextField get2;
     private javax.swing.JTextField get3;
     private javax.swing.JTextField get4;
     private javax.swing.JTextField get5;

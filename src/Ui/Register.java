@@ -205,6 +205,14 @@ public class Register extends javax.swing.JPanel {
             get1.setText("");
             get.setText("");
             get1.grabFocus();
+            
+            jPanel2.setVisible(false);
+            C.setVisible(true);
+            
+            C.jComboBox1.setSelectedIndex(1);
+            C.jComboBox2.setSelectedIndex(1);
+            
+            C.get2.grabFocus();
         } catch (Exception E) {
             JOptionPane.showMessageDialog(this,
                     E.getMessage(), "ERROR", JOptionPane.ERROR_MESSAGE);
