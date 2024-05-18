@@ -11,6 +11,6 @@ public class Programacion2_Pro5 {
         Vie.setShape(new RoundRectangle2D.Double(0, 0, 700, 600, 40, 40));
         Vie.setResizable(false);
         Vie.setLocationRelativeTo(null);
-        Vie.setVisible(true);
+        Vie.setVisible(true);   
     }
 }

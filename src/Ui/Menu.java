@@ -46,7 +46,6 @@ public class Menu extends javax.swing.JFrame {
                 T.tweenSize(new Vector2(128, 64), 0.2, Tweenable.Style.OutSine, true);
                 T2.tweenSize(new Vector2(128, 64), 0.2, Tweenable.Style.OutSine, true);
                 R.setVisible(false);
-                //R.
                 jPanel2.setVisible(true);
             }
         });
